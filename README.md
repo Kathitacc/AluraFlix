@@ -1,3 +1,39 @@
+#Start project
+1. Copiar los archivos del proyecto
+Asegúrate de copiar todos los archivos y carpetas del proyecto a la nueva computadora, incluyendo:
+
+    /src: código fuente de tu aplicación.
+    /public: archivos públicos y estáticos.
+    package.json: archivo de configuración del proyecto.
+    package-lock.json o yarn.lock: archivo de bloqueo de dependencias.
+    node_modules: puede ser opcional, pero generalmente se reinstalan las dependencias en la nueva máquina.
+    db.json o cualquier archivo necesario para json-server si estás utilizando uno.
+
+2. Instalar Node.js y npm
+
+3. Instalar las dependencias del proyecto
+Abre una terminal o línea de comandos en el directorio raíz de tu proyecto y ejecuta: npm install
+
+4. Iniciar json-server
+Para iniciar json-server, abre una terminal y ejecuta: npm run server
+Esto iniciará json-server en http://localhost:5000.
+
+5. Iniciar la aplicación React
+En otra terminal, navega al directorio raíz del proyecto y ejecuta: npm start
+Esto iniciará la aplicación React en http://localhost:3000.
+
+Resumen de pasos:
+Copia todos los archivos del proyecto.
+Instala Node.js y npm/yarn.
+Instala las dependencias del proyecto con npm install o yarn install.
+Configura e instala json-server.
+Inicia json-server con npm run server.
+Inicia la aplicación React con npm start.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

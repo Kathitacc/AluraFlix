@@ -1,0 +1,12 @@
+.boton{
+    width: 180.13px;
+    height: 54px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(204, 158, 158, 0.9);
+    border: 2px solid var(--Blue, rgba(34, 113, 209, 1))      
+
+}
+
